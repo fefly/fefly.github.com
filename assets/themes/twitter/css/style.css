@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+*{margin:0;padding:0;}
+body{margin:0 15px 25px;font:12px/1.5 arial,sans-serif;background:#f3f3f3;color:#666;}
+li{list-style:none;}
+img{border:0;}
+a{color:#666;text-decoration:none;}
+a:hover{color:#f30;}
+
+.navbar{overflow:hidden;*zoom:1;padding:3px 15px 2px;background:#fff;box-shadow:0 2px 5px rgba(0,0,0,0.1);}
+.navbar .brand,
+.navbar li{float:left;padding-right:15px;}
+h1,
+h2,
+.logo{font-family:"%E6%A5%B7%E4%BD%93_GB2312","楷体_GB2312";}
+.header{margin:15px 0;clear:both;}
+.header .logo{font-size:36px;padding-left:15px;}
+.header .slogan{display:inline-block;padding-left:5px;font:12px/1.5 arial;}
+.section{margin:0 15px 15px 0;padding:15px;background:#fff;border-radius:4px;box-shadow:0 0 7px rgba(0,0,0,0.2);}
+.fenews,
+.posts{float:left;width:33%;min-width:260px;}
+.resources{display:inline-block;width:210px;}
+.resources .nlist .pitem{padding-left:2px;}
+.section h1,
+.section h2{font-size:22px;margin-bottom:10px;}
+.section .htime{padding-left:5px;font:12px arial;}
+.nlist li{padding:0 0 6px 24px;*padding-left:2px;position:relative;}
+.nlist li:before{position:absolute;top:2px;left:5px;content:"★";text-align:center;display:inline-block;width:12px;height:12px;overflow:hidden;background:#999;border-radius:50%;color:#fff;font:10px/12px arial,sans-serif;}
+.nlist li p{margin:3px 0 7px;color:#aaa;}
+.nlist .code{background:#999999;display:inline-block;color:#fff;margin-bottom:10px;padding:2px 4px 3px;border-radius:3px;font-family:"Courier New";}
+.nlist .pitem{padding-bottom:12px;}
+.nlist .pitem:before{display:none;}
+.nlist .pitem a,
+.nlist .pitem img{display:block;width:210px;}
+.nlist .pitem img{margin-bottom:3px;}
+.article h1{margin-bottom:1em;}
+.article h1:before{display:inline-block;vertical-align:3px;margin-right:5px;content:"★";text-align:center;display:inline-block;width:22px;height:22px;overflow:hidden;background:#999;border-radius:50%;color:#fff;font:20px/20px arial,sans-serif;}
+.article p{margin-bottom:1em;line-height:1.8;font-size:14px;}
+
+.footer{margin-top:15px;padding:5px 15px;clear:both;box-shadow:0 -3px 6px rgba(0,0,0,0.1);}

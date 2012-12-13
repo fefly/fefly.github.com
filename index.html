@@ -1,0 +1,97 @@
+---
+layout: page
+title: 哐嗤.哐嗤..哐嗤...HTML.CSS..Javascript...前端开发您你大胆走起！
+---
+{% include JB/setup %}
+
+<div class="section fenews">
+	<h2>前端参考消息<span class="htime">2012-12-13</span></h2>
+	<ul class="nlist">
+		<li><a href="#">iPhone 5/iOS 6前端开发指南</a>
+			<p>你的CSS代码有没有异味？哪些是不会出错，但是存在风险、或者给后期维护代码麻烦的写法？文章比较长，推荐阅读，至少把代码看完。</p>
+		</li>
+		<li><a href="#">使用数据库方式访问JSON数据的javascript类库-TaffyDB</a>
+			<p>ICON不用图片怎是实现？ font-face是一种选择，这里有一些更极致的实现：一个标签，只用一个标签，加上各种伪类和CSS属性</p>
+			<span class="code">@supports (display:flex){.className{ display: flex }}</span>
+		</li>
+		<li><a href="#">是时候使用filter:drop-shadow了</a>
+			<p>刚才看了一个标签做ICON，里面很多形态的形状其实用的是box shadow</p>
+			<span class="code">@supports (display:flex){.className{ display: flex }}</span>
+		</li>
+		<li><a href="#">原生的CSS属性探测</a>
+			<p>CSS属性探测怎么做？Modernizr是不错的选择，W3C在今年11月发布了CSS3的条件规则模块的草案，开始让原生的CSS和javascript来干这个事情。</p>
+			<span class="code">@supports (display:flex){.className{ display: flex }}</span>
+		</li>
+		<li><a href="#">iPhone 5/iOS 6前端开发指南</a>
+			<p>你的CSS代码有没有异味？哪些是不会出错，但是存在风险、或者给后期维护代码麻烦的写法？文章比较长，推荐阅读，至少把代码看完。</p>
+		</li>
+		<li><a href="#">使用数据库方式访问JSON数据的javascript类库-TaffyDB</a>
+			<p>ICON不用图片怎是实现？ font-face是一种选择，这里有一些更极致的实现：一个标签，只用一个标签，加上各种伪类和CSS属性</p>
+		</li>
+		<li><a href="#">是时候使用filter:drop-shadow了</a>
+			<p>刚才看了一个标签做ICON，里面很多形态的形状其实用的是box shadow</p>
+		</li>
+		<li><a href="#">原生的CSS属性探测</a>
+			<p>CSS属性探测怎么做？Modernizr是不错的选择，W3C在今年11月发布了CSS3的条件规则模块的草案，开始让原生的CSS和javascript来干这个事情。</p>
+			<span class="code">@supports (display:flex){.className{ display: flex }}</span>
+		</li>
+	</ul>
+</div>
+
+<div class="section posts">
+	<h2>最近发布</h2>
+	<ul class="nlist">
+		{% for post in paginator.posts %}
+			<li><a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+	<!-- Pagination links -->
+	<div id="post-pagination" class="pagination">
+		<ul class="pages">
+			{% if paginator.previous_page %}
+			<li>
+				{% if paginator.previous_page == 1 %}
+				<a href="/">Prev</a>
+				{% else %}
+				<a href="/page{{paginator.previous_page}}">Prev</a>
+				{% endif %}
+			</li>
+			{% else %}
+			<li class="disabled"><a href="#">Prev</a></li>
+			{% endif %}
+
+
+			{% if paginator.page == 1 %}
+			<li class="active"><a href="/page1">1</a></li>
+			{% else %}
+			<li><a href="/page1">1</a></li>
+			{% endif %}
+
+			{% for count in (2..paginator.total_pages) %}
+
+			{% if count == paginator.page %}
+			<li class="active">
+				<span class="current-page">{{count}}</span>
+			</li>
+			{% else %}
+			<li><a href="/page{{count}}">{{count}}</a></li>
+			{% endif %}
+
+			{% endfor %}
+
+			{% if paginator.next_page %}
+			<li><a href="/page{{paginator.next_page}}">Next</a></li>
+			{% else %}
+			<li class="disabled"><span>Next</span></li>
+			{% endif %}
+		</ul>
+	</div>
+</div>
+
+<div class="section resources">
+	<h2>资源推荐</h2>
+	<ul class="nlist">
+		<li class="pitem"><a href="#"><img src="s1.png" alt="" />GitHub's CSS Performance</a></li>
+		<li class="pitem"><a href="#"><img src="s2.png" alt="" />Designing the Hi-DPI Web</a></li>
+	</ul>
+</div>

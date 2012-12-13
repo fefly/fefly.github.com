@@ -1,0 +1,41 @@
+
+<div class="section">
+	<div class="article">
+		<div class="aheader">
+			<h1>{{ page.title }}</h1>
+			<span class="adate">{{ page.date | date_to_long_string }}</span>
+		</div>
+
+		<div class="acontent">
+			{{ content }}
+		</div>
+
+		<p>注：本文版权归<a href="http:/{{title}}"> {{ site.title }} </a>所有，转载请注明出处。</p>
+
+		<div class="pagination">
+		  <ul>
+		  {% if page.previous %}
+			<li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+		  {% else %}
+			<li class="prev disabled"><a>&larr; Previous</a></li>
+		  {% endif %}
+			<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+		  {% if page.next %}
+			<li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+		  {% else %}
+			<li class="next disabled"><a>Next &rarr;</a>
+		  {% endif %}
+		  </ul>
+		</div>
+
+		{% unless page.tags == empty %}
+			<h2>Tags</h2>
+			<ul class="tag_box inline">
+			{% assign tags_list = page.tags %}
+			{% include JB/tags_list %}
+			</ul>
+		{% endunless %}
+
+		{% include JB/comments %}
+	</div>
+</div>
