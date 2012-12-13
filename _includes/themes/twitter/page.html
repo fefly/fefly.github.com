@@ -1,5 +1,13 @@
-<div class="pcontent">
-	{{ content }}
+
+
+<div class="section">
+	<div class="pheader">
+	  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+	</div>
+
+	<div class="pcontent">
+		{{ content }}
+	</div>
 </div>
 
 <script type="text/javascript">

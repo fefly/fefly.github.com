@@ -5,12 +5,11 @@ tagline: I'm sorry...
 ---
 {% include JB/setup %}
 
-This page does not exist =( <br>
+你想要访问的页面不存在！ <br>
+或许你可以看看最近发布的文章。
 
-Maybe you wanna read some of my recent posts :)
-
-<ul class="posts">
+<ul class="nlist">
   {% for post in site.posts limit:10 %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
