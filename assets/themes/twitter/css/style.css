@@ -36,6 +36,7 @@ h2,
 .article h1:before{display:inline-block;vertical-align:3px;margin-right:5px;content:"★";text-align:center;display:inline-block;width:22px;height:22px;overflow:hidden;background:#999;border-radius:50%;color:#fff;font:20px/20px arial,sans-serif;}
 .article p{margin-bottom:1em;line-height:1.8;font-size:14px;}
 .atime{padding-left:28px;display:block;margin-bottom:1.5em;}
+.adate{padding-left:28px;}
 .acontent{padding:28px;}
 .footer{margin-top:15px;padding:5px 15px;clear:both;box-shadow:0 -3px 6px rgba(0,0,0,0.1);}
 
