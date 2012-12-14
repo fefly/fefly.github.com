@@ -32,7 +32,7 @@ h2,
 .nlist .pitem:before{display:none;}
 .nlist .pitem a,
 .nlist .pitem img{display:block;width:210px;}
-.nlist .pitem img{margin-bottom:3px;}
+.nlist .pitem h4{font-weight:normal;margin-bottom:3px;}
 .article h1:before{display:inline-block;vertical-align:3px;margin-right:5px;content:"★";text-align:center;display:inline-block;width:22px;height:22px;overflow:hidden;background:#999;border-radius:50%;color:#fff;font:20px/20px arial,sans-serif;}
 .article p{margin-bottom:1em;line-height:1.8;font-size:14px;}
 .atime{padding-left:28px;display:block;margin-bottom:1.5em;}
