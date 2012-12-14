@@ -13,4 +13,6 @@ tags: [资源推荐]
 	<li><a href="https://speakerdeck.com/ddemaree/designing-the-hi-dpi-web" target="_blank"><img src="/content/20121213/s2.png" alt="" />Designing the Hi-DPI Web</a></li>
 </ul>
 
-    color:red;
+{% highlight css %}
+	color:red;
+{% endhighlight %}
