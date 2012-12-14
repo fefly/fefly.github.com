@@ -12,3 +12,5 @@ tags: [资源推荐]
 	<li><a href="https://speakerdeck.com/jonrohan/githubs-css-performance" target="_blank"><img src="/content/20121213/s1.png" alt="" />GitHub's CSS Performance</a></li>
 	<li><a href="https://speakerdeck.com/ddemaree/designing-the-hi-dpi-web" target="_blank"><img src="/content/20121213/s2.png" alt="" />Designing the Hi-DPI Web</a></li>
 </ul>
+
+    color:red;
