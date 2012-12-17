@@ -4,7 +4,7 @@ title: "前端参考消息 2012-12-13"
 description: "前端参考消息 2012-12-13"
 category:
  - 前端参考消息
-tags: [前端参考消息]
+tags: [news, 前端参考消息]
 ---
 {% include JB/setup %}
 
