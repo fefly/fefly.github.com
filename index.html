@@ -5,7 +5,13 @@ title: 哐嗤.哐嗤..哐嗤...HTML.CSS..Javascript...前端开发您你大胆�
 {% include JB/setup %}
 <div class="section fenews">
 	<h2>前端参考消息<span class="htime">news</span></h2>
-	{{ site.categories }}
+
+{% for category in site.categories %} 
+{% if category[0] contains '前端参考消息' %}
+  {{ category[1][0].centent }}
+{% endif %}
+{% endfor %}
+
 	<ul class="nlist">
 		<li><a href="http://csswizardry.com/2012/11/code-smells-in-css/" target="_blank">CSS代码中的异味 | Code smells in CSS</a>
 			<p>你的CSS代码有没有异味？哪些是不会出错，但是存在风险、或者给后期维护代码麻烦的写法？文章比较长，推荐阅读，看看代码也不错。“样式是一个叠加的过程，而不是用新的代码去覆盖原来的代码（覆盖的方式最后可能会让你写很多的代码去冲掉原有属性来实现一个很简单的效果）。”</p>

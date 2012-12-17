@@ -3,7 +3,7 @@ layout: post
 title: "资源推荐 2012-12-14"
 description: "资源推荐 2012-12-14"
 category:
- - 资源推荐
+ -资源推荐
 tags: [ppt, 资源推荐]
 ---
 {% include JB/setup %}
