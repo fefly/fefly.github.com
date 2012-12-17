@@ -34,8 +34,8 @@ h2,
 .nlist li{padding:0 0 6px 24px;*padding-left:2px;position:relative;}
 .nlist li:before{position:absolute;top:2px;left:5px;content:"★";text-align:center;display:inline-block;width:12px;height:12px;overflow:hidden;background:#999;border-radius:50%;color:#fff;font:10px/12px arial,sans-serif;}
 .nlist li p{margin:3px 0 7px;color:#aaa;}
-.acontent .code,
-.acontent pre{background:#999999;display:inline-block;color:#fff;margin-bottom:10px;padding:2px 4px 3px;border-radius:3px;font-family:"Courier New";}
+.container .code,
+.container pre{background:#999999;display:inline-block;color:#fff;margin-bottom:10px;padding:2px 4px 3px;border-radius:3px;font-family:"Courier New";}
 .nlist .pitem{padding-bottom:12px;}
 .nlist .pitem h4{font-weight:normal;margin-bottom:3px;}
 .article h1:before{display:inline-block;vertical-align:3px;margin-right:5px;content:"★";text-align:center;display:inline-block;width:22px;height:22px;overflow:hidden;background:#999;border-radius:50%;color:#fff;font:20px/20px arial,sans-serif;}
