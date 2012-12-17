@@ -8,7 +8,7 @@ group: cats
 
 
 {% for category in site.categories %} 
-{% if category[0] contains '参考消息' %}
+{% if category[0] contains '前端参考消息' %}
   <ul class="nlist">
 	{% assign pages_list = category[1] %}  
 	{% include JB/pages_list %}
