@@ -6,7 +6,7 @@ title: 哐嗤.哐嗤..哐嗤...HTML.CSS..Javascript...前端开发您你大胆�
 <div class="section fenews">
 	{% for category in site.categories %} 
 	{% if category[0] contains '前端参考消息' %}
-	<h2>前端参考消息<span class="htime">{{ category[1][0].date | date_to_long_string }}</span></h2>
+	<h2>前端参考消息<span class="htime">{{ category[1][0].date | date_to_string }}</span></h2>
 	  {{ category[1][0].content }}
 	{% endif %}
 	{% endfor %}
@@ -66,7 +66,7 @@ title: 哐嗤.哐嗤..哐嗤...HTML.CSS..Javascript...前端开发您你大胆�
 <div class="section resources">
 	{% for category in site.categories %} 
 	{% if category[0] contains '资源推荐' %}
-	<h2>资源推荐<span class="htime">{{ category[1][0].date | date_to_long_string }}</span></h2>
+	<h2>资源推荐<span class="htime">{{ category[1][0].date | date_to_string }}</span></h2>
 	  {{ category[1][0].content }}
 	{% endif %}
 	{% endfor %}
