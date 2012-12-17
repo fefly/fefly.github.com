@@ -1,0 +1,18 @@
+---
+layout: page
+title: 参考消息
+header: 参考消息
+group: cats
+---
+{% include JB/setup %}
+
+
+{% for category in site.categories %} 
+{% if category[0] contains '参考消息' %}
+  <h2 class="ititle">{{ category[0] }}</h2>
+  <ul class="nlist">
+	{% assign pages_list = category[1] %}  
+	{% include JB/pages_list %}
+  </ul>
+{% endif %}
+{% endfor %}
