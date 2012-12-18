@@ -18,8 +18,9 @@ h2,
 .header .slogan{display:inline-block;padding:0 9px 6px 5px;font:12px/1.5 arial;}
 .header .cats,
 .header .cats li{display:inline-block;*display:inline;*zoom:1;}
-.header .cats li a{display:inline-block;margin:0 6px 4px 0;background: white;border-radius: 5px;padding: 2px 6px;box-shadow:0 1px 4px rgba(0, 0, 0, 0.15);}
-.header .cats li a:hover{bottom:2px;position:relative;}
+.header .cats li a{display:inline-block;margin:0 6px 4px 0;bottom:0;background: white;border-radius: 5px;padding: 2px 6px;box-shadow:0 1px 4px rgba(0, 0, 0, 0.15);}
+.header .cats li.active a,
+.header .cats li a:hover{bottom:2px;position:relative;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);-webkit-transition: bottom 1s;}
 .section{margin:0 15px 25px 0;padding:15px;background:#fff;border-radius:4px;box-shadow:0 0 7px rgba(0,0,0,0.2);}
 .fenews,
 .posts{float:left;width:33%;min-width:260px;}
