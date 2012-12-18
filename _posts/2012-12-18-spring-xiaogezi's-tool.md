@@ -11,11 +11,11 @@ tags: [tools, 前端工具]
 
 ### 关于 Spring
 
-<a href="https://github.com/Linrstudio/Spring/" target="_blank">Spring</a>是<a href="http://xiaogezi.cn/" target="_blank">小鸽子</a>开发的一个给前端开发人员用的工具，用于批量压缩CSS、图片、代码以及批量重命名。
+[Spring][1]是[小鸽子][2]开发的一个给前端开发人员用的工具，用于批量压缩CSS、图片、代码以及批量重命名。
 
 ### 下载Spring
 
-Download: <https://github.com/Linrstudio/Spring/downloads>
+Download: [https://github.com/Linrstudio/Spring/downloads][3]
 
 ### 操作方法——
 
@@ -65,3 +65,7 @@ Download: <https://github.com/Linrstudio/Spring/downloads>
 * 在 “输出到”文本框点击 右键，将快捷获取 剪贴板中的目录路径；
 * 在 “输出到”文本框双击，弹出选择文件夹对话框；
 * 在 文件选择框中双击 添加文件要压缩的文件；
+
+[1]: https://github.com/Linrstudio/Spring/
+[2]: http://xiaogezi.cn/
+[3]: https://github.com/Linrstudio/Spring/downloads

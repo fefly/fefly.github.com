@@ -25,7 +25,7 @@ tags: [css, css3, 真操实战]
 <div class="circle"></div> 
 {% endhighlight %}
 
-![copy circle][http://fefly.github.com/content/20121218/copy-dot.png "copy-dot.png"]
+![copy circle][1]
 
 
 看了这个之后，那个经典的菊花是不是可以很快的搞定了呢？
@@ -38,3 +38,5 @@ tags: [css, css3, 真操实战]
 ####参考资料：
 * box-shadow生成器：http://box-shadow.info/
 * 一个标签搞定Loading：http://one-div.com/pictos/ajax-loader/
+
+[1]: http://fefly.github.com/content/20121218/copy-dot.png "copy-dot.png"
