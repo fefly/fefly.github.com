@@ -1,0 +1,17 @@
+---
+layout: page
+title: 前端工具
+header: 前端工具
+group: cats
+---
+{% include JB/setup %}
+
+
+{% for category in site.categories %} 
+{% if category[0] contains '前端工具' %}
+  <ul class="nlist">
+	{% assign pages_list = category[1] %}  
+	{% include JB/pages_list %}
+  </ul>
+{% endif %}
+{% endfor %}

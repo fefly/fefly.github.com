@@ -1,0 +1,17 @@
+---
+layout: page
+title: 真操实战
+header: 真操实战
+group: cats
+---
+{% include JB/setup %}
+
+
+{% for category in site.categories %} 
+{% if category[0] contains '真操实战' %}
+  <ul class="nlist">
+	{% assign pages_list = category[1] %}  
+	{% include JB/pages_list %}
+  </ul>
+{% endif %}
+{% endfor %}
