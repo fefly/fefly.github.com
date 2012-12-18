@@ -42,6 +42,7 @@ h2,
 .atime{padding-left:28px;display:block;margin-bottom:1.5em;}
 .adate{padding-left:28px;}
 .acontent{padding:28px;line-height:1.8;font-size:14px;}
+.acontent li{list-style:circle;margin-left:25px;}
 .ititle{margin-top:25px;}
 .footer{margin-top:15px;padding:5px 15px;clear:both;box-shadow:0 -3px 6px rgba(0,0,0,0.1);}
 

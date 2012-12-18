@@ -25,13 +25,10 @@ tags: [css, css3, 真操实战]
 <div class="circle"></div> 
 {% endhighlight %}
 
-![copy circle][1]
+![copy circle][http://fefly.github.com/content/20121218/copy-dot.png "copy-dot.png"]
 
-PS：上面几步看上去比较简单，但是对于国内用户来说 XCode 的下载和更新真是煎熬啊~
- 
 
 看了这个之后，那个经典的菊花是不是可以很快的搞定了呢？
-
 
 * 上面的box-shadow中的第一、二、三、五个参数大家经常用，分别是x轴偏离、y轴偏离、模糊半径、阴影颜色。
 * 而第四个参数[spread-radius]是可选的，很少被大家注意到，这个参数可以用来控制阴影的大小：正数则在元素的尺寸基础上增大、负数缩小。
@@ -41,5 +38,3 @@ PS：上面几步看上去比较简单，但是对于国内用户来说 XCode �
 ####参考资料：
 * box-shadow生成器：http://box-shadow.info/
 * 一个标签搞定Loading：http://one-div.com/pictos/ajax-loader/
-
-[1]: http://fefly.github.com/content/20121218/copy-dot.png "copy-dot.png"
