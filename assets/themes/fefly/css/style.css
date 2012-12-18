@@ -18,7 +18,7 @@ h2,
 .header .slogan{display:inline-block;padding:0 9px 6px 5px;font:12px/1.5 arial;}
 .header .cats,
 .header .cats li{display:inline-block;*display:inline;*zoom:1;}
-.header .cats li{margin-right:6px;background: white;border-radius: 5px;padding: 2px 5px;box-shadow:0 1px 4px rgba(0, 0, 0, 0.15);}
+.header .cats li{margin-right:6px;background: white;border-radius: 5px;padding: 2px 6px;box-shadow:0 1px 4px rgba(0, 0, 0, 0.15);}
 .section{margin:0 15px 25px 0;padding:15px;background:#fff;border-radius:4px;box-shadow:0 0 7px rgba(0,0,0,0.2);}
 .fenews,
 .posts{float:left;width:33%;min-width:260px;}
@@ -47,7 +47,6 @@ h2,
 .acontent .nlist li::before{top:6px;}
 .acontent h3,
 .acontent h4{margin:25px 0  6px;}
-.pcontent{padding-bottom:15px;}
 .ititle{margin:25px 0 10px;}
 .footer{margin-top:15px;padding:5px 15px;clear:both;box-shadow:0 -3px 6px rgba(0,0,0,0.1);}
 
