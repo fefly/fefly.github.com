@@ -38,7 +38,7 @@ tags: [css, css3, 真操实战]
 </ul>
 
 ####参考资料：
-* box-shadow生成器：http://box-shadow.info/
-* 一个标签搞定Loading：http://one-div.com/pictos/ajax-loader/
+* box-shadow生成器：<http://box-shadow.info/>
+* 一个标签搞定Loading：<http://one-div.com/pictos/ajax-loader/>
 
 [1]: http://fefly.github.com/content/20121218/copy-dot.png "copy-dot.png"
