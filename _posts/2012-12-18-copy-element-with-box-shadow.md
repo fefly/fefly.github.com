@@ -30,10 +30,12 @@ tags: [css, css3, 真操实战]
 
 看了这个之后，那个经典的菊花是不是可以很快的搞定了呢？
 
-* 上面的box-shadow中的第一、二、三、五个参数大家经常用，分别是x轴偏离、y轴偏离、模糊半径、阴影颜色。
-* 而第四个参数[spread-radius]是可选的，很少被大家注意到，这个参数可以用来控制阴影的大小：正数则在元素的尺寸基础上增大、负数缩小。
-* 贴上完整的参数：{% highlight css %}box-shadow:  none | [inset? && [ <offset-x> <offset-y> <blur-radius>? <spread-radius>? <color>? ] ]{% endhighlight %}
-
+####参数说明：
+<ul>
+<li>上面的box-shadow中的第一、二、三、五个参数大家经常用，分别是x轴偏离、y轴偏离、模糊半径、阴影颜色。</li>
+<li>而第四个参数[spread-radius]是可选的，很少被大家注意到，这个参数可以用来控制阴影的大小：正数则在元素的尺寸基础上增大、负数缩小。</li>
+<li>贴上完整的参数：{% highlight css %}box-shadow:  none | [inset? && [ <offset-x> <offset-y> <blur-radius>? <spread-radius>? <color>? ] ]{% endhighlight %}</li>
+</ul>
 
 ####参考资料：
 * box-shadow生成器：http://box-shadow.info/
