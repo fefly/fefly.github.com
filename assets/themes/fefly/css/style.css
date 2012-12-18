@@ -14,7 +14,6 @@ a:hover{color:#f30;}
 h1,
 h2,
 h3,
-h4,
 .logo{font-family:"%E6%A5%B7%E4%BD%93_GB2312","楷体_GB2312";}
 .header{margin:15px 0;padding-left:15px;clear:both;}
 .header .logo{display:inline-block;font-size:36px;}
@@ -52,6 +51,7 @@ h4,
 .acontent .nlist li::before{top:6px;}
 .acontent h3,
 .acontent h4{margin:25px 0  6px;}
+.acontent h3{font-size:18px;}
 .acontent img{max-width:100%;}
 .ititle{margin:25px 0 10px;}
 .footer{margin-top:15px;padding:5px 15px;clear:both;box-shadow:0 -3px 6px rgba(0,0,0,0.1);}
