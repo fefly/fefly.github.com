@@ -51,7 +51,7 @@ h3,
 .acontent .nlist li::before{top:6px;}
 .acontent h3,
 .acontent h4{margin:25px 0  6px;}
-.acontent h3{font-size:18px;}
+.container h3{font-size:18px;}
 .acontent img{max-width:100%;}
 .ititle{margin:25px 0 10px;}
 .footer{margin-top:15px;padding:5px 15px;clear:both;box-shadow:0 -3px 6px rgba(0,0,0,0.1);}
