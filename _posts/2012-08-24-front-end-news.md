@@ -23,7 +23,7 @@ tags: [news, 前端参考消息]
 	</li>
 	<li><a href="http://www.iyunlu.com/view/Front-end/61.html" target="_blank">一淘新首页项目总结—— 一淘前端分享会</a>
 		<p>协同合作、响应式布局、性能优化、可用性......好吧，看看这些名称不再是名称的样子。</p>
-		<span class="code">position: relative; z-index: -1;/*这样也可以隐藏文字*/</span>
+		<span class="code">position: relative; z-index: -1;//这样也可以隐藏文字</span>
 	</li>
 	<li><a href="http://blogs.msdn.com/b/ie/archive/2012/08/16/full-page-animations-using-css.aspx" target="_blank">通过CSS3让整个页面载入、离开时动起来</a>
 		<p>看到这个让我想起<a href="http://reeqi.name/" target="_blank">reeqi</a>做措辞库的时候想做的一个效果，在页面加载之后，页面的主要内容区域出现的时候有一个平移的动画效果。 这个更加炫，给整个页面在载入和离开时添加各种动画、变形。</p>
