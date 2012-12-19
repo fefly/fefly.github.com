@@ -37,5 +37,5 @@ tags: [news, 前端参考消息]
 	</li>
 </ul>
 
-[1]: http://44ux.com/
-[2]: http://video.sina.com.cn/v/b/71780088-1653255165.html
+[1]: http://44ux.com/ "jiguang"
+[2]: http://video.sina.com.cn/v/b/71780088-1653255165.html "月球旅行记"
