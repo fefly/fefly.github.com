@@ -10,7 +10,7 @@ tags: [news, 前端参考消息]
 
 <ul class="nlist">
 	<li><a href="http://ued.github.com/emberjs-doc-cn/" target="_blank">Ember.js - 中文文档 | laserji</a>
-		<p>Ember是一个旨在创建非凡web应用的JavaScript框架，它消除了样板（boilerplate）并提供了标准的应用程序架构。--<a href="http://44ux.com/" target="_blank">姬光同学</a>翻译的中文版</p>
+		<p>Ember是一个旨在创建非凡web应用的JavaScript框架，它消除了样板（boilerplate）并提供了标准的应用程序架构。--[姬光同学][1]翻译的中文版</p>
 		<span class="code">{{person.name}} is {{person.age}}</span>
 	</li>
 	<li><a href="http://davidwalsh.name/css-tooltips" target="_blank">用CSS实现提示框的箭头 | CSS Tooltips</a>
@@ -37,3 +37,5 @@ tags: [news, 前端参考消息]
 		<p><http://video.sina.com.cn/v/b/71780088-1653255165.html></p>
 	</li>
 </ul>
+
+[1]: http://44ux.com/

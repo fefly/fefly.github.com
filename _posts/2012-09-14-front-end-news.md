@@ -18,7 +18,7 @@ tags: [news, 前端参考消息]
 		<span class="code">.ir{overflow: hidden;*text-indent: -999em;}.ir:before{content: "";display: block;width: 0;height: 100%;}</span>
 	</li>
 	<li><a href="http://www.zhangxinxu.com/wordpress/2012/08/256-class-selector-beat-id-selector/" target="_blank">256个class选择器可以干掉1个id选择器 - 张鑫旭</a>
-		<p>各种选择器的权重，其实大部分浏览是256进制的（8字节字符串、2位16进制），不是10进制的，也不是不能跨越的等级制度，这个和浏览器的实现方式有关，opera例外是16字节的。<http://codepen.io/chriscoyier/pen/lzjqh></p>
+		<p>各种选择器的权重，其实大部分浏览是256进制的（8字节字符串、2位16进制），不是10进制的，也不是不能跨越的等级制度，这个和浏览器的实现方式有关，opera例外是16字节的。[http://codepen.io/chriscoyier/pen/lzjqh][1]</p>
 	</li>
 	<li><a href="http://f2em.com/?presentation=1" target="_blank">一个前端工程师的宣言 | A Front End Engineer's Manifesto</a>
 		<p>作为一个前端工程师，最重要的是什么，关于浏览器、工具、社区、开源等，看看这个外国人是怎么想的。</p>
@@ -33,3 +33,5 @@ tags: [news, 前端参考消息]
 		<p>生计 or 生活</p>
 	</li>
 </ul>
+
+[1]: http://codepen.io/chriscoyier/pen/lzjqh
