@@ -49,11 +49,11 @@ analytics :
    找到这个文件_includes/themes/twitter/post.html，将原来的![tagline][18] 改成![tagline][19]
 
 ##发布文章
-+ 所有的都放在_posts下，是md后缀的markdown文件，可以点击文件路径后面的加号新增文件<br>![addpost][5]
-+ 文件名以为时间开头，年月日用中划线分隔，后接标题，标题中的空格用中划线代替
-+ 文件内容包括2部分：元数据和文章正文<br>![layout][8] 
-+ 文章内容为[markdown格式][6]，语法简单，上手快。
-+ 文章写好之后，点击Commit New File按钮，网站马上就会更新。<br>
+1. 所有的都放在_posts下，是md后缀的markdown文件，可以点击文件路径后面的加号新增文件<br>![addpost][5]
+2. 文件名以为时间开头，年月日用中划线分隔，后接标题，标题中的空格用中划线代替
+3. 文件内容包括2部分：元数据和文章正文<br>![layout][8] 
+4. 文章内容为[markdown格式][6]，语法简单，上手快。
+5. 文章写好之后，点击Commit New File按钮，网站马上就会更新。<br>
 ![post][7]
 
 
@@ -68,10 +68,10 @@ analytics :
 
 
 ##个性化网站 换肤
-1.1 预览各种皮肤效果，目前有7个可以预览 http://themes.jekyllbootstrap.com/
-1.2 找到你想要的皮肤的代码，预览的时候会有一个install theme的按钮，点击之后会出来一个类似的地址git://github.com/sodabrew/theme-dinky.git
-1.3 把皮肤中的模版文件目录部署到_includes/themes/xxx（xxx为皮肤名），相关的静态资源部署到assets/themes/xxx
-1.4 启用新的皮肤，找到_layouts/default.html，把theme name改成xxx
+1. 预览各种皮肤效果，目前有7个可以预览 http://themes.jekyllbootstrap.com/
+2. 找到你想要的皮肤的代码，预览的时候会有一个install theme的按钮，点击之后会出来一个类似的地址git://github.com/sodabrew/theme-dinky.git
+3. 把皮肤中的模版文件目录部署到_includes/themes/xxx（xxx为皮肤名），相关的静态资源部署到assets/themes/xxx
+4. 启用新的皮肤，找到_layouts/default.html，把theme name改成xxx
 {% highlight text %}
 theme :
   name : twitter（twitter改成新的xxx）
