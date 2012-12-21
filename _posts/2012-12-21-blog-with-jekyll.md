@@ -45,11 +45,11 @@ analytics :
 ###修改文章模版
 1. 修改首页，找到根目录下的index.md文件，点击右上角的edit，以下（）中的为说明文字，请不要放到文件中去。<br>![home][9] 
 2. 文章很多需要翻页的时候可以用这个项目的分页代码 https://github.com/mojombo/jekyll/wiki/Pagination
-3. 修改tagline，文章页面的标题后面会跟一个Supporting tagline<br>
+3. 修改tagline，文章页面的标题后面会跟一个Supporting tagline<br><br>![tagline][10] <br>
    找到这个文件_includes/themes/twitter/post.html，将原来的<small>Supporting tagline</small>改成{% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}
 
 ###发布文章
-1. 所有的都放在_posts下，是md后缀的markdown文件，可以点击文件路径后面的加号新增文件<br>![add-post][5] 
+1. 所有的都放在_posts下，是md后缀的markdown文件，可以点击文件路径后面的加号新增文件<br>![add-post][5]
 2. 文件名以为时间开头，年月日用中划线分隔，后接标题，标题中的空格用中划线代替
 3. 文件内容包括2部分：元数据和文章正文<br>![layout][8] 
 4. 文章内容为[markdown格式][6]，语法简单，上手快。
@@ -58,10 +58,10 @@ analytics :
 
 
 ###定制页面
-1. 每个页面是一个对象，里面包含页面相关的各种数据，比如文章的标题，直接在页面输出 {{ post.title }} 即可；
-2. 所有的数据都存在一个大的对象里面，任何页面都可以获取对象里的数据，比如全站文章按目录分类的数据 {{ site.categories }}；
-3. 具体可以查看官方文档 http://jekyllbootstrap.com/api/template-data-api.html
-4. 一个能够正常发文的博客网站就这样搞定了，后面的高级定制功能在github的网站上点击实现比较麻烦，需要按照客户端或者命令行工具。
+1.每个页面是一个对象，里面包含页面相关的各种数据，比如文章的标题，直接在页面输出![title][11]即可；
+2.所有的数据都存在一个大的对象里面，任何页面都可以获取对象里的数据，比如全站文章按目录分类的数据![cats][12]；
+3.具体可以查看官方文档 http://jekyllbootstrap.com/api/template-data-api.html
+4.一个能够正常发文的博客网站就这样搞定了，后面的高级定制功能在github的网站上点击实现比较麻烦，需要按照客户端或者命令行工具。
 
 
 
@@ -85,3 +85,6 @@ theme :
 [7]: http://fefly.github.com/content/20121221/post.png
 [8]: http://fefly.github.com/content/20121221/layout.png
 [9]: http://fefly.github.com/content/20121221/home.png
+[10]: http://fefly.github.com/content/20121221/tagline.png
+[11]: http://fefly.github.com/content/20121221/title.png
+[12]: http://fefly.github.com/content/20121221/cats.png
