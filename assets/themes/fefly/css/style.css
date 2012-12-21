@@ -4,7 +4,7 @@
 body{margin:0 15px 25px;font:12px/1.5 arial,sans-serif;background:#f3f3f3;color:#666;}
 li{list-style:none;}
 img{border:0;}
-a{color:#555;text-decoration:none;}
+a{color:#555;text-decoration:none;-webkit-transition:color 0.3s;transition:color 0.3s;}
 a:hover{color:#f30;}
 
 .navbar{overflow:hidden;*zoom:1;padding:3px 15px 2px;background:#fff;box-shadow:0 2px 5px rgba(0,0,0,0.1);}
