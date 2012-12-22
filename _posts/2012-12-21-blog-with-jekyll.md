@@ -49,14 +49,12 @@ analytics :
    找到这个文件_includes/themes/twitter/post.html，将原来的![tagline][18] 改成![tagline][19]
 
 ##发布文章
-<ol>
-<li>所有的都放在_posts下，是md后缀的markdown文件，可以点击文件路径后面的加号新增文件<br>![post][5]</li>
-<li>文件名以为时间开头，年月日用中划线分隔，后接标题，标题中的空格用中划线代替；</li>
-<li>文件内容包括2部分：元数据和文章正文<br>![layout][8] </li>
-<li>文章内容为[markdown格式][6]，语法简单，上手快。</li>
-<li>文章写好之后，点击Commit New File按钮，网站马上就会更新。<br>
-![post][7]</li>
-</ol>
+1. 所有的都放在_posts下，是md后缀的markdown文件，可以点击文件路径后面的加号新增文件<br>![post][5]
+2. 文件名以为时间开头，年月日用中划线分隔，后接标题，标题中的空格用中划线代替
+3. 文件内容包括2部分：元数据和文章正文<br>![layout][8]
+4. 文章内容为[markdown格式][6]，语法简单，上手快
+5. 文章写好之后，点击Commit New File按钮，网站马上就会更新。<br>
+![post][7]
 
 
 ##定制页面内容
