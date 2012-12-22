@@ -12,8 +12,8 @@ tags: [tools, 教程, Jekyll, blog]
 ##开通网站
 1. 登录github.com，有帐号的登录，无帐号的注册 [https://github.com/][17]
 2. Fork项目jekyll-bootstrap（[https://github.com/plusjade/jekyll-bootstrap][15]）<br>![fork][1]
-3. 重命名项目 xxx.github.com（xxx是你在github注册的用户名）<br>![setting][2]<br>![rename][3]
-4. 访问你的网站 xxx.github.com，就这么简单，你就有了自己的网站，完全免费。
+3. 进入setting，重命名项目 xxx.github.com（xxx是你在github注册的用户名）<br>![setting][2]<br>![rename][3]
+4. 访问你的网站 xxx.github.com，恭喜你，现在你已经有了自己的网站，完全免费的。
 
 ##配置网站
 找到_config.yml，点击右上角的edit，找到并修改以下内容，以下（）中的为说明文字，请不要放到文件中去：<br>
@@ -49,7 +49,7 @@ analytics :
    找到这个文件_includes/themes/twitter/post.html，将原来的![tagline][18] 改成![tagline][19]
 
 ##发布文章
-1. 所有的都放在_posts下，是md后缀的markdown文件，可以点击文件路径后面的加号新增文件<br>![post][5]<br>
+1. 所有的都放在_posts下，是md后缀的markdown文件，可以点击文件路径后面的加号新增文件<br>![post][5]
 2. 文件名以为时间开头，年月日用中划线分隔，后接标题，标题中的空格用中划线代替
 3. 文件内容包括2部分：元数据和文章正文<br>![layout][8] 
 4. 文章内容为[markdown格式][6]，语法简单，上手快。
@@ -68,14 +68,15 @@ analytics :
 
 
 ##个性化网站 换肤
-1. 预览各种皮肤效果，目前有7个可以预览 http://themes.jekyllbootstrap.com/
+1. 预览各种皮肤效果，目前有7个可以预览[http://themes.jekyllbootstrap.com/][20]
 2. 找到你想要的皮肤的代码，预览的时候会有一个install theme的按钮，点击之后会出来一个类似的地址git://github.com/sodabrew/theme-dinky.git
 3. 把皮肤中的模版文件目录部署到_includes/themes/xxx（xxx为皮肤名），相关的静态资源部署到assets/themes/xxx
 4. 启用新的皮肤，找到_layouts/default.html，把theme name改成xxx
-{% highlight text %}
+<br>{% highlight text %}
 theme :
   name : twitter（twitter改成新的xxx）
 {% endhighlight %}
+<br><br>
 
 [1]: http://fefly.github.com/content/20121221/fork.png
 [2]: http://fefly.github.com/content/20121221/setting.png
@@ -96,3 +97,4 @@ theme :
 [17]: https://github.com/
 [18]: http://fefly.github.com/content/20121221/tagi.png
 [19]: http://fefly.github.com/content/20121221/tagii.png
+[20]: http://themes.jekyllbootstrap.com/
