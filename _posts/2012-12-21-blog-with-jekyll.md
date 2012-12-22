@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "如何在github上快速创建个人博客"
-description: "如何在github上快速创建个人博客"
+title: "如何利用github快速创建个人博客"
+description: "如何利用github快速创建个人博客"
 category:
  - 前端工具
 tags: [tools, 教程, Jekyll, blog]
