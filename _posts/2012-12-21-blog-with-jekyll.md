@@ -12,7 +12,7 @@ tags: [tools, 教程, Jekyll, blog]
 ##开通网站
 1. 登录github.com，有帐号的登录，无帐号的注册 [https://github.com/][17]
 2. Fork项目jekyll-bootstrap（[https://github.com/plusjade/jekyll-bootstrap][15]）<br>![fork][1]
-3. 进入setting，重命名项目 xxx.github.com（xxx是你在github注册的用户名）<br>![setting][2]<br>![rename][3]
+3. 进入setting，重命名项目名为 xxx.github.com（xxx是你在github注册的用户名）<br>![setting][2]<br>![rename][3]
 4. 访问你的网站 xxx.github.com，恭喜你，现在你已经有了自己的网站，完全免费的。
 
 ##配置网站
@@ -49,8 +49,8 @@ analytics :
    找到这个文件_includes/themes/twitter/post.html，将原来的![tagline][18] 改成![tagline][19]
 
 ##发布文章
-1. 所有的都放在_posts下，是md后缀的markdown文件，可以点击文件路径后面的加号新增文件<br>![post][5]
-2. 文件名以为时间开头，年月日用中划线分隔，后接标题，标题中的空格用中划线代替
+1. 所有的都放在_posts下，是md后缀的markdown文件，可以点击文件路径后面的加号新增文件
+2. 文件名以为时间开头，年月日用中划线分隔，后接标题，标题中的空格用中划线代替；
 3. 文件内容包括2部分：元数据和文章正文<br>![layout][8] 
 4. 文章内容为[markdown格式][6]，语法简单，上手快。
 5. 文章写好之后，点击Commit New File按钮，网站马上就会更新。<br>
