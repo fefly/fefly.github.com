@@ -23,10 +23,10 @@ h3,
 .header .cats li a{display:inline-block;margin:0 6px 4px 0;bottom:0;background: white;border-radius: 5px;padding: 2px 6px;box-shadow:0 1px 4px rgba(0, 0, 0, 0.15);}
 .header .cats li.active a,
 .header .cats li a:hover{color:#f30;bottom:2px;position:relative;box-shadow:0 -1px 4px rgba(0, 0, 0, 0.2);}
-.section{margin:0 15px 25px 0;padding:15px;background:#fff;border-radius:4px;box-shadow:0 0 7px rgba(0,0,0,0.2);}
+.section{margin-bottom:25px;padding:15px;background:#fff;border-radius:4px;box-shadow:0 0 7px rgba(0,0,0,0.2);}
 .fenews,
-.posts{float:left;width:33%;min-width:260px;}
-.resources{display:inline-block;width:210px;}
+.posts{float:left;width:45%;min-width:260px;}
+.fenews{margin-right:15px;}
 .resources .nlist .pitem{padding-left:2px;}
 .resources .nlist .pitem:before{display:none;}
 .resources .pitem a,
