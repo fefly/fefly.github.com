@@ -62,12 +62,3 @@ title: 哐嗤.哐嗤..哐嗤...HTML.CSS..Javascript...前端开发您你大胆�
 		</ul>
 	</div>
 </div>
-
-<div class="section resources">
-	{% for category in site.categories %} 
-	{% if category[0] contains '资源推荐' %}
-	<h2>资源推荐<span class="htime">{{ category[1][0].date | date_to_string }}</span></h2>
-	  {{ category[1][0].content }}
-	{% endif %}
-	{% endfor %}
-</div>
