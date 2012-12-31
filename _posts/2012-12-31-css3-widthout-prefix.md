@@ -12,7 +12,7 @@ tags: [css3]
 
 最近发现某些代码中还在为border-radius写各种-moz-/-webkit之类的前缀，其实CSS3发展了这么多年，还是有些进展的。
 
-比如border-radius、border-radius、box-shadow这些常用的东西，不支持的还是不支持，支持的都差不多统一了标准。
+比如border-radius、text-shadow、box-shadow这些常用的东西，不支持的还是不支持，虽然各家仍各自为战，但有些最基本的已经开始慢慢统一标准。
 
 ![text-shadow][1]
 
@@ -21,7 +21,7 @@ tags: [css3]
 ![box-shadow][3]
 
 
-嗖，CSS3大胆用起来吧，不过用之前还是去[http://caniuse.com/][4]查看一下最新的浏览器兼容情况，属否能满足你的主要客户。
+嗖，CSS3大胆用起来吧，不过用之前还是去[http://caniuse.com/][4]查看一下最新的浏览器兼容情况，是否能满足你的主要客户。
 
 caniuse的数据是开源的：[https://github.com/Fyrd/caniuse][5]，有兴趣的同学可以拿来搞点小东西，或者帮作者贡献一点点内容。
 
