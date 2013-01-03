@@ -1,9 +1,8 @@
-
 <div class="section">
 	<div class="article">
 		<div class="aheader">
 			<h1>{{ page.title }}</h1>
-			<span class="adate">{{ page.date | date_to_long_string }}</span>
+			<span class="adate">{{ page.date | date: "%Y年 %m月 %d日" }}</span>
 		</div>
 
 		<div class="acontent">
